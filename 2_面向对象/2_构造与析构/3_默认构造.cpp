@@ -20,8 +20,8 @@ private:
 public:
     Test(int aa) //无返回值，名字是类名
     {
-    a = aa; //用参数对其赋值
-    cout << "构造函数" << endl;
+        a = aa; //用参数对其赋值
+        cout << "构造函数" << endl;
     }
     void Print() { cout << a << endl; }
 };

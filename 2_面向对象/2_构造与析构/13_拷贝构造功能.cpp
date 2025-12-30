@@ -24,7 +24,7 @@ public:
     //     this->a = t.a; //不加 this 就行，我只是加上，帮助大家加深一项
     //     this->d = t.d;
     //     for (int i = 0; t.str[i] != 0; i++)
-    //     str[i] = t.str[i]; //数组一定要用循环或者库函数
+    //          str[i] = t.str[i]; //数组一定要用循环或者库函数
     //     //*this = t; //用这个代替前边的就行
     // }
     void Print()

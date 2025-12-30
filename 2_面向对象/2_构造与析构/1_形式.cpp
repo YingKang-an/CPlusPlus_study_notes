@@ -12,7 +12,7 @@ class Test
 private:
     int a = 23;
 public:
-    Test(); //构造函数，无返回值，名字是类名
+    Test(); // 声明   构造函数，无返回值，名字是类名
     // void Print()
     // {
     //     std::cout << "构造函数" << std::endl;

@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Test         //class 关键字，Test 类名，一般首字母大写
+class Test         //class 关键字， Test 类名，一般首字母大写
 {
 private:           //私有访问权限
     int a = 12;

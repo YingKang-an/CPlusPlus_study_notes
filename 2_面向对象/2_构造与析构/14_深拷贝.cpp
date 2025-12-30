@@ -38,7 +38,7 @@ public:
     }
 };
 
-void Fun(Test& s)   // 其他函数用 引用避免拷贝
+void Fun(Test& s)   // 其他函数用 引用  避免拷贝
 {
     ;
 }
@@ -46,7 +46,7 @@ void Fun(Test& s)   // 其他函数用 引用避免拷贝
 int main(void)
 {
     Test t1(34);
-    Test t2(t1);  // 导致 ~Test 函数释放了t1的空间，出现野指针
+    Test t2(t1);  // 导致 ~Test 函数又释放了t1的空间，出现野指针
                   //t2 走拷贝构造，将 t2.p = t1.p; 两个 p 指向同一块空间
 
     Fun(t1);
