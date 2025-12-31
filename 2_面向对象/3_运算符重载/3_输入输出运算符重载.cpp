@@ -48,14 +48,14 @@ ostream& operator<<(ostream& os, const Arr& tp)
 {
     for (int i = 0; i < 5; i++)
         os << tp.a[i] << ' ';
-    return os; //返回一个 os 对象,可以连续输出
+    return os;      // 返回一个 os 对象,可以连续输出
 }
 
 istream& operator>>(istream& in, Arr& tp)  // tp不加const
 {
     for (int i = 0; i < 5; i++)
         in >> tp.a[i] ;
-    return in; //返回一个 is 对象,可以连续输入  
+    return in;      //返回一个 is 对象,可以连续输入  
 }
 
 int main(void)

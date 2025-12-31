@@ -30,7 +30,7 @@ int main ()
 {
     Test* p = new Test[10]{0,1,2,3,4,5,6,7,8,9};  //  必须初始化
     // delete t    只会调用：1析构函数， 后九个不会调用，并且会异常
-    delete[] p;    // [] 针对对象数组
+    delete[] p;    // [] 针对 对象数组
 
     int* q = new int[10];
     delete q;      //  没有析构函数
