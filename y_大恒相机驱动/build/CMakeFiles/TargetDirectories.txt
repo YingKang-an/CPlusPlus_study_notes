@@ -1,5 +1,0 @@
-/home/yinkangan/桌面/大恒相机驱动/build/CMakeFiles/main.dir
-/home/yinkangan/桌面/大恒相机驱动/build/CMakeFiles/MyMain.dir
-/home/yinkangan/桌面/大恒相机驱动/build/CMakeFiles/1.dir
-/home/yinkangan/桌面/大恒相机驱动/build/CMakeFiles/edit_cache.dir
-/home/yinkangan/桌面/大恒相机驱动/build/CMakeFiles/rebuild_cache.dir
