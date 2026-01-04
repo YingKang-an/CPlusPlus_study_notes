@@ -17,7 +17,7 @@ public:
     }
 
     // 基类析构函数也加 virtual：确保删除基类指针时，先调用子类析构
-    virtual ~CA() = default;
+    virtual ~CA() = default;  //  = default; ：默认函数生成
 };
 
 // 子类 CC，公有继承自基类 CA

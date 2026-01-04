@@ -38,6 +38,7 @@ public:
 
 class CE : protected CA
 {
+public:
     void Print()
     {
         cout << c << endl;
@@ -74,6 +75,7 @@ int main(void)
     CE ce;
     // ce.c;
     // ce.e;
+    ce.Print();
 
     CC c; //定义派生类对象
     c.Fun();
