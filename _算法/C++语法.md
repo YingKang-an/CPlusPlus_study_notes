@@ -63,7 +63,7 @@ while (num > 0) {
 ¶
 ### 动态数组 `vector`
 
-`vector` 是 C++ 标准库的动态数组。
+`vector` 是 C++ 标准库的动态数组
 
 学 C 语言的时候肯定学过 `malloc, int[n]` 等方式来创建静态数组，但是这种方式非常麻烦，而且容易出错。我们做算法题的时候一般使用动态数组 `vector`，而且题目给的输入一般也是 vector 类型。
 
@@ -207,7 +207,7 @@ int main() {
     lst.pop_back();
 
     // 在链表中插入元素
-    auto it = lst.begin();
+    auto it = lst.begin();  // 迭代器
     // 移动到第三个位置
     advance(it, 2);
     // 在第三个位置插入 99
