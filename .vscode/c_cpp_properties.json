@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": ["${workspaceFolder}/**"],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++-13", // 明确指向G++13
+            "cStandard": "c17",
+            "cppStandard": "c++20", // 强制C++20语法提示
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
