@@ -1,14 +1,13 @@
 {
-    "version": "0.2.0",
-    "configurations": [
+    "version": "2.0.0",
+    "tasks": [
         {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
-            "cwd": "${fileDirname}",
-            "preLaunchTask": "Build"
+            "label": "compile-auto",
+            "type": "shell",
+            "command": "if [[ ${fileExtname} == '.c' ]]; then gcc -g ${file} -o ${fileDirname}/${fileBasenameNoExtension}.out; else g++ -g ${file} -o ${fileDirname}/${fileBasenameNoExtension}.out; fi",
+            "group": "build",
+            "problemMatcher": ["$gcc"],
+            "detail": "自动识别C/C++编译"
         }
     ]
 }
